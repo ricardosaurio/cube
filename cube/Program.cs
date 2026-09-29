@@ -17,7 +17,7 @@ namespace cube
         static int consoleWidth = 160, consoleHeight = 44;
         static float[] depthBuffer = new float[160 * 44];
         static char[] screenBuffer = new char[160 * 44];
-        static char backgroundChar = '.';
+        static char backgroundChar = ' ';
         static int cameraDistance = 100;
         static float horizontalOffset;
         static float projectionScale = 40;
@@ -74,7 +74,7 @@ namespace cube
 
             static void Main()
             {
-                Console.WriteLine("Hello, nihilistic World!. Press Q during the animation to exit!");
+                Console.WriteLine("Hello, nihilistic C# World!. Press Q during the animation to exit!");
                 Console.ReadKey(true);
                 Console.CursorVisible = false;
                 Console.Clear();
